@@ -40,8 +40,6 @@ async function getGamesInfo() {
 
     const results = await response.json();
 
-    console.log(results);
-
     const gameInfo = results.results;
 
     resultsContainer.innerHTML = "";
@@ -62,7 +60,7 @@ async function getGamesInfo() {
                                       </div>`;
     }
   } catch (error) {
-    resultsContainer.innerHTML += errorMessage(
+    resultsContainer.innerHTML = errorMessage(
       "Unable to get the description based on API call."
     );
   }
