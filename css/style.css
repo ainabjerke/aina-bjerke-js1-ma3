@@ -1,5 +1,5 @@
 body {
-  max-width: 960px;
+  max-width: 1250px;
   margin: 200px auto;
   display: flex;
   justify-content: space-around;
@@ -11,7 +11,7 @@ h1 {
 }
 
 .games-container {
-  max-width: 1250px;
+  max-width: 960px;
   margin: auto;
 }
 
